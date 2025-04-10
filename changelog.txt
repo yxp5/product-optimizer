@@ -1,0 +1,40 @@
+Finder Optimizer
+Author: yxp5, Liu Jing, Wang Sibo
+Supervisor: Tang Chaojuan
+
+=========================================================================================================================
+
+2025/03/19:	Meeting planification
+
+2025/03/20: 	Code framework, need to fix product features adding bug
+
+2025/03/25:	Took a long weekend break, fixed the bug, it was because of initializing the same empty list, stupid memory reference
+		The code works well, setting up for version 1.00
+
+2025/03/26:	Starting the next version, I am fairy rusty to OOP, gotta fix and optimize a lot of things
+		Simplify classes and field
+		Optimize data storage
+		Improve in code flexibility and scalability to shitty Excel inputs
+
+2025/03/27:	Simplified a lot of code, reduce framework complexity by removing unecessary fields in classes
+		Done data storage and loading
+
+2025/03/31:	Fix most of backend bugs
+		Starting working on frontend using Tkinter and similar structure as Quizlet
+		Rule: input Excel data file should only contain English characters and numbers for consistent string format
+
+2025/04/02:	Implemented customizable requirements in order. Clients can now input their need and see which product is suitable
+		Finished most backend algorithm
+
+2025/04/09:	Fixed the bug that tkinter.Entry start as a black filled state
+		Hyperparameters are now configurable in setting, they are used to load data from Excel file
+		Software complete! Tested and is now bugs free (hopefully)
+		Need to devise assertions for data now, oh boy
+
+=========================================================================================================================
+
+TODO:		4- continue data storage and loading
+		3- Optimize calculation for compatibility and overshot
+		2- realize excel writing rules
+		3- Add assertation to type check inputs
+		1- Work on AI system
